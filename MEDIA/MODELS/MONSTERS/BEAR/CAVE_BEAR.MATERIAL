@@ -1,0 +1,18 @@
+material cavebear_mat
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588235 0.588235 0.588235
+                        diffuse 0.588235 0.588235 0.588235
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture BEAR.dds
+                        }
+                }
+        }
+}
+

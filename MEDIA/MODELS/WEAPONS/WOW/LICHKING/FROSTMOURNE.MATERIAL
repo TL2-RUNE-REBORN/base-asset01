@@ -1,0 +1,22 @@
+material sword_frost
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture frostmourne.dds
+			}
+                        texture_unit
+			{
+				anim_texture frostmourne.dds 4 0.9
+                                colour_op add
+			}
+		}
+	}
+}

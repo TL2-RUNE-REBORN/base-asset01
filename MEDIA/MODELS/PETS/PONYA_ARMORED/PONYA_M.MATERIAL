@@ -1,0 +1,153 @@
+material Material_#56/14_-_Default
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588235 0.588235 0.588235
+                        diffuse 0.588235 0.588235 0.588235
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture Ponya_M_Head.dds
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/Scalp
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture HU_HEAVY_B_HELM.PNG
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/ExCalf
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture hu_heavy_B_extra.png
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/Chest
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture HUM_HEAVY_B_CHEST.PNG
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/Hand
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture hu_heavy_B_gloves.png
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/ExForearm
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture hu_heavy_B_extra.png
+                        }
+                }
+        }
+}
+material Material_#56/13_-_Default
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588235 0.588235 0.588235
+                        diffuse 0.588235 0.588235 0.588235
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture Ponya_M.dds
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/ExChest
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture hu_heavy_B_extra.png
+                        }
+                }
+        }
+}
+material HuM_Heavy_B/Pauldrons
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture hu_heavy_B_extra.png
+                        }
+                }
+        }
+}

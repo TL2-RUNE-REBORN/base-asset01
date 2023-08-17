@@ -1,0 +1,39 @@
+material Demon
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.612000 0.612000 0.612000 1.000000
+			diffuse 0.612000 0.612000 0.612000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 0.250000
+			emissive 0.400000 0.400000 0.400000 1.000000
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture lightning_demon.png
+			}
+		}
+	}
+}
+material Demon2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.631373 0.631373 0.631373
+			diffuse 0.631373 0.631373 0.631373
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture lightning_demon.png
+			}
+		}
+	}
+}
+

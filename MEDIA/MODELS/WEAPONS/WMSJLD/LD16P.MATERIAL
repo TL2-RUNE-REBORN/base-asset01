@@ -1,0 +1,17 @@
+material NewMat_00.056
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.8 0.8 0.8
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ld16p.dds
+			}
+		}
+	}
+}

@@ -1,0 +1,144 @@
+material Labataur_Warrior_Mat/Base
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			alpha_blend
+			alpha_rejection greater 300
+			texture_unit
+                        {
+                                texture LABATAUR_WARRIOR.DDS
+                        }
+                }
+        }
+}
+material Labataur_Mat/Armor_Bronze
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture Armor_Bronze.dds
+			}
+		}
+	}
+}
+material Labataur_Mat/Armor_Rusty
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture Armor_Rusty.dds
+			}
+		}
+	}
+}
+material Labataur_Mat/Armor_Caster
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			alpha_blend
+			alpha_rejection greater 300
+			texture_unit
+			{
+				texture LABATAUR_CASTER.dds
+			}
+		}
+	}
+}
+material Labataur_Caster_Mat/Base
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			scene_blend alpha_blend
+			alpha_rejection greater 50
+			texture_unit
+                        {
+                                texture LABATAUR_CASTER.DDS
+                        }
+                }
+        }
+}
+material Labataur_Caster_Mat/Armor_Base
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .4 .4 .4
+			scene_blend alpha_blend
+			alpha_rejection greater 50
+			texture_unit
+                        {
+                                texture LABATAUR_CASTER.DDS
+                        }
+                }
+        }
+}
+material Labataur_Mat/Armor_Bronze_C
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture Armor_Bronze.dds
+			}
+		}
+	}
+}
+material Labataur_Mat/Armor_Rusty_C
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture Armor_Rusty.dds
+			}
+		}
+	}
+}

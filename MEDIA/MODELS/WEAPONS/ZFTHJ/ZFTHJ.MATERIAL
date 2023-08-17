@@ -1,0 +1,20 @@
+material 03_-_Default
+{
+	technique
+	{
+		pass
+		{
+
+                        ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0.6 0.407843 0.988235
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture zfthj.dds
+			}
+		}
+	}
+}

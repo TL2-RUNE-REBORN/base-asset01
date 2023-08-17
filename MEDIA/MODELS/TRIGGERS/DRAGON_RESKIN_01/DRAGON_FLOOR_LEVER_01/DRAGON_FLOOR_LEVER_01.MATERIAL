@@ -1,0 +1,17 @@
+material dragon_floor_lever_01_shadow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture dragon_floor_lever_01.png
+			}
+		}
+	}
+}

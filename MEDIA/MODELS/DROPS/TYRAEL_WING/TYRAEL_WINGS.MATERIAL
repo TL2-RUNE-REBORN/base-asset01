@@ -1,0 +1,18 @@
+material Material_#235
+{
+	technique
+	{
+		pass
+		{
+			ambient 2 2 9
+			diffuse 2 2 9
+			specular 0 0 0 0
+			emissive 0 0.2 0.1
+			scene_blend add
+			texture_unit
+			{
+				texture WINGS1.dds
+			}
+		}
+	}
+}

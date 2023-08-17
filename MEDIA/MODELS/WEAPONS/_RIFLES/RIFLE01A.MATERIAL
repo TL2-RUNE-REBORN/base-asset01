@@ -1,0 +1,19 @@
+material AA12
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.407843 0.407843 0.407843
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture AA12.DDS
+			}
+		}
+	}
+}

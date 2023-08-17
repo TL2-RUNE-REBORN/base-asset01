@@ -1,0 +1,36 @@
+material wolf/wolfbody
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			diffuse 0.7 0.7 0.7
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			texture_unit
+			{
+				texture wolf_de.dds
+			}
+		}
+	}
+}
+material wolf/wolfhair
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			diffuse 0.7 0.7 0.7
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 128
+			texture_unit
+			{
+				texture wolf_de.dds
+			}
+		}
+	}
+}

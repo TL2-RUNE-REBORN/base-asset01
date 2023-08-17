@@ -1,0 +1,69 @@
+material Netherimp_Mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 1 1 1
+			scene_blend alpha_blend
+			colour_write off
+			alpha_rejection greater 48
+			texture_unit
+			{
+				texture ALCHEMIST_IMPGLOW.dds
+			}
+
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_address_mode clamp
+				env_map cubic_normal
+				cubic_texture edge.dds combinedUVW
+			}
+
+		}
+
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 1 1 1
+			scene_blend alpha_blend
+			alpha_to_coverage on
+			depth_write off
+			texture_unit
+			{
+				anim_texture ../../sharedtextures/caustics/caustics_water.dds 80 3
+				env_map planar
+			}
+
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_address_mode clamp
+				env_map cubic_normal
+				cubic_texture edge.dds combinedUVW
+			}
+
+		}
+		pass
+		{
+			depth_write off
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 1 1 1
+			scene_blend add
+			depth_bias 10
+			texture_unit
+			{
+				texture ALCHEMIST_IMPGLOW.dds
+			}
+		}
+
+	}
+}

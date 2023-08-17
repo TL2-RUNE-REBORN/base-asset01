@@ -1,0 +1,49 @@
+material Ghost/Base
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			scene_blend alpha_blend
+			alpha_rejection greater 200
+			texture_unit
+			{
+				texture ghostmana.png
+			}
+		}
+	}
+}
+material Ghost/GhostMana
+{
+technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.2 0.2 0.2
+			scene_blend add
+			depth_write on
+			alpha_rejection greater 200
+			texture_unit
+			{
+				texture ghostmanaadd.png
+			}
+
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_address_mode clamp
+				env_map cubic_normal
+				cubic_texture highlight.dds combinedUVW
+				colour_op add
+			}
+		}
+	}
+
+}

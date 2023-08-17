@@ -1,0 +1,34 @@
+material stemple_lectern_01_multi/stemple_lectern_01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture stemple_lectern_01.png
+			}
+		}
+	}
+}
+material stemple_lectern_01_multi/open_scroll_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture open_scroll.png
+			}
+		}
+	}
+}

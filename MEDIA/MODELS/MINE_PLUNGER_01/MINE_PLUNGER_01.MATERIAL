@@ -1,0 +1,17 @@
+material mine_explosive_plunger01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5882 0.5882 0.5882
+			diffuse 0.5882 0.5882 0.5882
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture mine_explosive_plunger01.png
+			}
+		}
+	}
+}

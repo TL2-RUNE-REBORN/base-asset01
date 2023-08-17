@@ -1,0 +1,17 @@
+material Material_#139
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.584314 0.584314 0.584314
+			diffuse 0.584314 0.584314 0.584314
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture GREYWOLF.PNG
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+material netherim_ranged_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture netherim_ranged.png
+			}
+			texture_unit
+			{
+				colour_op add
+				texture netherim_rangedglow.png
+			}
+		}
+	}
+}

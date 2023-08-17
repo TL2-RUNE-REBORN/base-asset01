@@ -1,0 +1,22 @@
+// pistol007 genrated by blender2ogre 0.5.9
+
+material pistol007 
+{
+
+    technique
+    {
+        pass pistol007
+        {
+ambient 0.588 0.588 0.588
+diffuse 0.588 0.588 0.588
+specular 0 0 0 0
+emissive 0.407843 0.407843 0.407843
+
+            texture_unit 
+            {
+                texture Desert_Eagle_COLOR.dds
+
+            }
+        }
+    }
+}

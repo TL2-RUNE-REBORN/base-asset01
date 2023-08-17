@@ -1,0 +1,28 @@
+material greathammer05_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.188235 0.188235 0.188235
+			diffuse 0.188235 0.188235 0.188235
+			specular 0 0 0 0
+			emissive 0.2 0.2 0.2
+			scene_blend add
+			depth_write off
+			alpha_rejection greater 125
+			texture_unit
+			{
+				texture greathammer05.png
+			}
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_address_mode clamp
+				env_map cubic_normal
+				cubic_texture highlight.dds combinedUVW
+				colour_op add
+			}
+		}
+	}
+}

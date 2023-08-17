@@ -1,0 +1,48 @@
+material Material_#10/navi_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.783 0.783 0.783 0.87
+			emissive 1 1 1
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture navi_alphastrip.dds
+			}
+			texture_unit
+			{
+				texture navi_alphastrip.dds
+
+			}
+		}
+	}
+}
+material Material_#10/navi_glows_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.792 0.792 0.792 0.88
+			emissive 1 1 1
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture navi_alphastrip.dds
+			}
+			texture_unit
+			{
+				texture navi_alphastrip.dds
+				colour_op add
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+material mine_chute_02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture mine_chute02.png
+			}
+		}
+	}
+}

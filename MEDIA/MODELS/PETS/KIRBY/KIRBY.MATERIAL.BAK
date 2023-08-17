@@ -1,0 +1,30 @@
+material kirbe
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.878431 0.764706 0.85098
+			diffuse 0.878431 0.764706 0.85098
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture kirby.png
+			}
+		}
+	}
+}
+material m_starfighterGRAY_2_TIE
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.811765 0.305882 0.388235
+			diffuse 0.811765 0.305882 0.388235
+			specular 0 0 0 0
+			emissive 0 0 0
+		}
+	}
+}

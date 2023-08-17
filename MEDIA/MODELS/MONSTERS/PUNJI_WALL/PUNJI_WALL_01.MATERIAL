@@ -1,0 +1,19 @@
+material Forest_thorns_01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture ..\..\..\MODELS\MONSTERS\PUNJI_WALL\Forest_thorns_01.png
+			}
+		}
+	}
+}

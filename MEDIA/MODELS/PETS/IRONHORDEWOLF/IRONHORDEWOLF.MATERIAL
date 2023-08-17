@@ -1,0 +1,70 @@
+material ironhordewolf_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeWolfArmor.dds -1
+			}
+		}
+	}
+}
+material ironhordewolf_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeWolfBody.dds -1
+			}
+		}
+	}
+}
+material ironhordewolf_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeWolfBody.dds -1
+			}
+		}
+	}
+}
+material ironhordewolf_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeWolfArmor.dds -1
+			}
+		}
+	}
+}
+material ironhordewolf_5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeWolfArmor.dds -1
+			}
+		}
+	}
+}

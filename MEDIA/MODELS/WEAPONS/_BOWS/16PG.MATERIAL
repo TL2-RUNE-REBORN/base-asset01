@@ -1,0 +1,17 @@
+material NewNone__r_16____.DDS
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0
+			diffuse 0.8 0.8 0.8
+			specular 0.16 0.16 0.16 0.2
+			emissive 0 0 0
+			texture_unit
+			{
+				texture 16pg.DDS
+			}
+		}
+	}
+}

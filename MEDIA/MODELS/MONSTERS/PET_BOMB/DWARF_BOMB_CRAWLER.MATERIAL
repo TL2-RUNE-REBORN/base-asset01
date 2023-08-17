@@ -1,0 +1,19 @@
+material forest_mine_trap_01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture forest_mine_trap_01.dds
+			}
+		}
+	}
+}

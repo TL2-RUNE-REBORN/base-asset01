@@ -1,0 +1,22 @@
+material claptrap_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture claptrap_01.dds
+			}
+			texture_unit
+			{
+				texture claptrap_01_glow.dds
+				colour_op add
+			}
+		}
+	}
+}

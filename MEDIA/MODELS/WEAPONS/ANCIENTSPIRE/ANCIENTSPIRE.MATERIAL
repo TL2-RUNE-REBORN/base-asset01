@@ -1,0 +1,119 @@
+material Material_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}
+material Material_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}
+material Material_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}
+material Material_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}
+material Material_5
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}
+material Material_6
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}
+material Material_7
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 0.000000
+			diffuse 1.000000 1.000000 1.000000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.0
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit 
+			{
+				texture sword_1h.tga
+			}
+		}
+	}
+}

@@ -1,0 +1,121 @@
+material Huf_colonist_07/Foot
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material Huf_colonist_07/Helmet
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material Huf_colonist_07/Hand
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material Huf_colonist_07/Forearm
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material Huf_colonist_07/MidArm
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material huf_colonist_07/belt
+{
+        technique
+        {
+                pass
+                {
+                        ambient 1.000000 1.000000 1.000000
+                        diffuse 0.800000 0.800000 0.800000
+                        specular 1.000000 1.000000 1.000000 0
+                        emissive 0.000000 0.000000 0.000000
+                        texture_unit
+                        {
+                                texture HU_VAR_01_EXTRA.DDS
+                        }
+                }
+        }
+}
+material Huf_colonist_07/Calf
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material Huf_colonist_07/Chest
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}
+material Huf_colonist_07/Thighs
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                }
+        }
+}

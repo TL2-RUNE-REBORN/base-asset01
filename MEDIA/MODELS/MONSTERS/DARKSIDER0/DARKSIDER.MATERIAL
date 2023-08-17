@@ -1,0 +1,62 @@
+material Darksider/Darksider1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			diffuse 0.7 0.7 0.7
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture body01-d.dds
+			}
+		}
+	}
+}
+material Darksider/Darksider2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			diffuse 0.7 0.7 0.7
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture body02-d.dds
+			}
+		
+		}
+	}
+}
+material Darksider/Darksider3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture f-d.dds
+			}
+			texture_unit
+			{
+				texture f-re.dds
+				colour_op add
+			}
+		
+		}
+	}
+}

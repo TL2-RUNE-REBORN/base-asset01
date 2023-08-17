@@ -1,0 +1,28 @@
+material elemental/elemental_01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture elemental_01.png
+			}
+			texture_unit
+			{
+				colour_op add
+				texture elemental_01_illum.dds
+			}
+			texture_unit
+			{
+				colour_op add
+				scroll_anim -0.1 -0.02
+				texture elemental_vein.dds
+			}
+		}
+	}
+}

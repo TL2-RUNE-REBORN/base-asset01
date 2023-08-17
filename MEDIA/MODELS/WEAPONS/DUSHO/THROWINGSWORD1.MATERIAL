@@ -1,0 +1,17 @@
+material throwingSword1
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.500000 0.500000 0.500000
+                        diffuse 0.470400 0.470400 0.470400
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.000000 0.000000 0.000000
+                        texture_unit
+                        {
+                                texture throwingSword1.dds
+                        }
+                }
+        }
+}

@@ -1,0 +1,17 @@
+material cave_gate_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture cave_tusk_fencing_gate.png
+			}
+		}
+	}
+}

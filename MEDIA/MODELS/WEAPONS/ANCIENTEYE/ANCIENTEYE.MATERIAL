@@ -1,0 +1,90 @@
+material Material_5
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow.tga
+            }
+        }
+    }
+}
+
+material Material_4
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow.tga
+            }
+        }
+    }
+}
+
+material Material_3
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow.tga
+            }
+        }
+    }
+}
+
+material Material_2
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow.tga
+            }
+        }
+    }
+}
+
+material Material_1
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow.tga
+            }
+        }
+    }
+}
+
+material Material_0
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow.tga
+            }
+        }
+    }
+}
+

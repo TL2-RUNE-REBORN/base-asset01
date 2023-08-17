@@ -1,0 +1,18 @@
+
+material fortress_tileset/Fortress_entry_exit_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/fortress/Fortress_entry_exit_01.png
+			}
+		}
+	}
+}

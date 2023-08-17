@@ -1,0 +1,40 @@
+material Material_#236
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture TYRAELPET.dds
+			}
+		}
+	}
+}
+material Material_#238
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5 0.5 0.5
+			diffuse 0.5 0.5 0.5
+			specular 0 0 0 0
+			emissive 0.5 0.5 0.5
+			scene_blend add
+
+			alpha_rejection greater 150
+			cull_hardware none
+
+
+			texture_unit
+			{
+				texture TYRAELPETWINGS.dds
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+material Material_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 3 3 3
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture WARGLAIVE_OF_AZZINOTH_LEFT.png
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+material spiked_bow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.72549 0.72549 0.72549
+			diffuse 0.72549 0.72549 0.72549
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture spike_bow.dds
+			}
+		}
+	}
+}

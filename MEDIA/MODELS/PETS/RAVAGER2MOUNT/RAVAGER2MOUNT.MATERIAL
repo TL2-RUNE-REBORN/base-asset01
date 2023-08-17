@@ -1,0 +1,42 @@
+material ravager2mount_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture Ravager2Mount1.dds -1
+			}
+		}
+	}
+}
+material ravager2mount_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture Ravager2Mount2.dds -1
+			}
+		}
+	}
+}
+material ravager2mount_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture Ravager2Mount1.dds -1
+			}
+		}
+	}
+}

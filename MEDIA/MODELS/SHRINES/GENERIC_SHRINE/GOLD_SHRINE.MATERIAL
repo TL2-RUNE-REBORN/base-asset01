@@ -1,0 +1,22 @@
+material goldshrine
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627
+			diffuse 0.368627 0.368627 0.368627
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture shrine_gold.dds
+			}
+			texture_unit
+			{
+				texture shrine_gold_illum.dds
+				colour_op add
+			}
+		}
+	}
+}

@@ -1,0 +1,262 @@
+material crypt_tileset/crypt_gradient
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			depth_write off
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_gradient.png
+			}
+		}
+	}
+}
+material crypt_tileset/rubble_dust_shadow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			depth_write off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture ../../levelSets/crypt/rubble_dust.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_floor01_shadow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_floor01.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_wall03.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall01_gradient
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_wall01_gradient.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall05
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_wall05.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall01_tile
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_wall01_tile.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_floor01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_floor01.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_floor03_shadow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_path_straight.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_floor03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_path_straight.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall05_shadow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_wall05.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall06
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_wall07.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_wall_column
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_column_tile.png
+			}
+		}
+	}
+}
+material crypt_tileset/crypt_bridge
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/crypt/crypt_bridge.png
+			}
+		}
+	}
+}
+material crypt_tileset/gear
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture gear.png
+			}
+		}
+	}
+}

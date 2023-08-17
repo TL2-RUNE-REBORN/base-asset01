@@ -1,0 +1,42 @@
+material ironhordeelekk_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeElekkBody.dds -1
+			}
+		}
+	}
+}
+material ironhordeelekk_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeElekkArmor.dds -1
+			}
+		}
+	}
+}
+material ironhordeelekk_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeElekkBody.dds -1
+			}
+		}
+	}
+}

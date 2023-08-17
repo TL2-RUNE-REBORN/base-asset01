@@ -1,0 +1,48 @@
+material Standard_15/Standard_15
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.392157 0.392157 0.392157
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture Boss_Ezrohir_01.png
+			}
+			texture_unit
+			{
+				texture Boss_Ezrohir_01_glow.png
+				colour_op add
+			}
+		}
+	}
+}
+material Standard_15/claw
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.392157 0.392157 0.392157
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture Boss_Ezrohir_01.png
+			}
+			texture_unit
+			{
+				texture Boss_Ezrohir_01_glow.png
+				colour_op add
+			}
+		}
+	}
+}

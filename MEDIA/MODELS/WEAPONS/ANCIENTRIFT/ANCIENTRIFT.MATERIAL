@@ -1,0 +1,15 @@
+material Material_1
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture abyss_guardian_sword02.tga
+            }
+        }
+    }
+}
+

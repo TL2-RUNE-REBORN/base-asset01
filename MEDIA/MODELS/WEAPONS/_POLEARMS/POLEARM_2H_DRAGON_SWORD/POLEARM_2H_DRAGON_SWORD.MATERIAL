@@ -1,0 +1,17 @@
+material ´óµ¶13
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture POLEARM_2H_dragon_sword.png
+			}
+		}
+	}
+}

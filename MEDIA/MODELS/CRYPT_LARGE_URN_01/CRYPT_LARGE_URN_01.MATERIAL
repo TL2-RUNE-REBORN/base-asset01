@@ -1,0 +1,17 @@
+material crypt_large_urn_01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.2 0.2 0.2
+			texture_unit
+			{
+				texture crypt_large_urn_01.png
+			}
+		}
+	}
+}

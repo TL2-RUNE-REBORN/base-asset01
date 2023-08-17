@@ -1,0 +1,17 @@
+material Mat_00_004_r_17_____dds
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8
+			diffuse 0.8 0.8 0.8
+			specular 0.5 0.5 0.5 1
+			emissive 0 0 0
+			texture_unit
+			{
+				texture 17pn.dds
+			}
+		}
+	}
+}

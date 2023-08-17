@@ -1,0 +1,46 @@
+material manashrine/bluewater
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627
+			diffuse 0.368627 0.368627 0.368627
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture manawater.dds
+				scroll_anim 0.1 0.12
+			}
+			texture_unit
+			{
+				texture manawaterillum.dds
+				colour_op add
+				scroll_anim -0.05 0.03
+			}
+		}
+	}
+}
+material manashrine/01_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627
+			diffuse 0.368627 0.368627 0.368627
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture shrine_blue.dds
+			}
+			texture_unit
+			{
+				texture shrine_blue_illum.dds
+				colour_op add
+			}
+		}
+	}
+}

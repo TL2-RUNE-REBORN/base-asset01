@@ -1,0 +1,56 @@
+material ironhordeclefthoof_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeClefthoof_Body.dds -1
+			}
+		}
+	}
+}
+material ironhordeclefthoof_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeClefthoof_Armor.dds -1
+			}
+		}
+	}
+}
+material ironhordeclefthoof_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeClefthoof_Armor.dds -1
+			}
+		}
+	}
+}
+material ironhordeclefthoof_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture IronHordeClefthoof_Body.dds -1
+			}
+		}
+	}
+}

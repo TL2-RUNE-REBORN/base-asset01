@@ -1,0 +1,18 @@
+material Material_#25
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture knife_1h_naxx25_d_01purple.dds
+		
+			}
+		}
+	}
+}

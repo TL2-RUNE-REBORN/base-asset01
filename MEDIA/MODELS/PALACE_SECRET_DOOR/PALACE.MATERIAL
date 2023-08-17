@@ -1,0 +1,332 @@
+
+material palace_tileset/palace_railing01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				../../levelSets/palace/texture palace_rail01.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_wall_straight01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_wall_straight01.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_corners_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_corners01.PNG
+			}
+		}
+	}
+}
+material palace_tileset/palace_floor01_shadow_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_floor01.PNG
+			}
+		}
+	}
+}
+material palace_tileset/palace_stairs03_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_stairs03.PNG
+			}
+		}
+	}
+}
+material palace_tileset/palace_stairs01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_stairs01.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_stairs02_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_stairs02.PNG
+			}
+		}
+	}
+}
+material palace_tileset/palace_floor01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_floor01.PNG
+			}
+		}
+	}
+}
+material palace_tileset/palace_pillar01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_pillar01.PNG
+			}
+		}
+	}
+}
+material palace_tileset/palace_bridge01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_bridge01.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_gradient_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			alpha_rejection greater 5
+			scene_blend one one
+			depth_write off
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_gradient.png
+				scroll_anim .25 0
+				colour_op modulate
+			}
+
+
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_gradient_mask.png
+				
+
+			}
+		}
+	}
+}
+material palace_tileset/palace_floor02_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_floor02.PNG
+			}
+			texture_unit
+			{
+				texture palace_floor02_I.PNG
+				colour_op add
+			}
+		}
+	}
+}
+material palace_tileset/palace_arch01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_arch01.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_floor03_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_floor03.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_floor04_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_floor04.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_window_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_window.png
+				scroll_anim 0.05 .125
+			}
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_window_alpha.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_entry_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_entry.png
+			}
+		}
+	}
+}
+material palace_tileset/palace_stairs04_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture ../../levelSets/palace/palace_stairs04.PNG
+			}
+		}
+	}
+}

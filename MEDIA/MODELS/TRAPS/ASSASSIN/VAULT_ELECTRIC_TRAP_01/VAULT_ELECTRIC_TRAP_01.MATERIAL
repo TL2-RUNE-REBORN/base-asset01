@@ -1,0 +1,22 @@
+material vault_electric_trap_01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture vault_electric_trap_01.DDS
+			}
+			texture_unit
+			{
+				texture vault_electric_trap_01_glow.DDS
+				colour_op add
+			}
+		}
+	}
+}

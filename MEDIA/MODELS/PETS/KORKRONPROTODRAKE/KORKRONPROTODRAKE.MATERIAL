@@ -1,0 +1,84 @@
+material korkronprotodrake_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture KORKRONPROTODRAKE_BODY1.dds -1
+			}
+		}
+	}
+}
+material korkronprotodrake_1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture KORKRONPROTODRAKE_ARMOR.dds -1
+			}
+		}
+	}
+}
+material korkronprotodrake_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture KORKRONPROTODRAKE_BODY2.dds -1
+			}
+		}
+	}
+}
+material korkronprotodrake_3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture KORKRONPROTODRAKE_BODY1.dds -1
+			}
+		}
+	}
+}
+material korkronprotodrake_4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture KORKRONPROTODRAKE_BODY2.dds -1
+			}
+		}
+	}
+}
+material korkronprotodrake_5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7
+			texture_unit
+			{
+				texture KORKRONPROTODRAKE_BODY2.dds -1
+			}
+		}
+	}
+}

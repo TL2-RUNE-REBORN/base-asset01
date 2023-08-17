@@ -1,0 +1,50 @@
+material Material_#11/redwater
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627
+			diffuse 0.368627 0.368627 0.368627
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture healthwater.png
+				scroll_anim 0.1 0.12
+				rotate_anim 0.01
+			}
+			texture_unit
+			{
+				texture healthwaterillum.png
+				colour_op add
+				scroll_anim -0.05 0.03
+				rotate_anim -0.02
+			}
+		}
+	}
+}
+material Material_#11/01_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.368627 0.368627 0.368627
+			diffuse 0.368627 0.368627 0.368627
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture shrine_Red.png
+			}
+			texture_unit
+			{
+				texture shrine_red_illum.png
+				colour_op add
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+material alchemist_crystal_01_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient .4 .4 .4
+			diffuse .4 .4 .4
+			specular 0 0 0 0
+			emissive .2 .2 .2
+			scene_blend add
+			depth_write off
+			texture_unit
+			{
+				texture alchemist_crystal_01.dds
+			}
+
+		}
+	}
+}

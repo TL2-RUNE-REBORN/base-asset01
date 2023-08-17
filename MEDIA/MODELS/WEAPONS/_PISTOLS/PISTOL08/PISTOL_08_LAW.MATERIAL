@@ -1,0 +1,26 @@
+// pistol_08_law genrated by blender2ogre 0.5.9
+
+material pistol_08_law 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass pistol_08_law
+        {
+		ambient 0.588 0.588 0.588
+		diffuse 0.588 0.588 0.588
+		specular 0 0 0 0
+		emissive 0.407843 0.407843 0.407843
+
+            cull_hardware none
+			cull_software none
+
+
+            texture_unit 
+            {
+                texture pistol_08_law.png
+            }
+        }
+    }
+}

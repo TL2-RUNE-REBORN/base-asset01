@@ -1,0 +1,102 @@
+material HuF_cas_02/Ears
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture null_01.dds
+                        }
+                }
+        }
+}
+material HuF_cas_02/Hair
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture null_01.dds
+                        }
+                }
+        }
+}
+material HuF_cas_02/Scalp
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture null_01.dds
+                        }
+                }
+        }
+}
+material HuF_cas_02/Eyes
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture null_01.dds
+                        }
+                }
+        }
+}
+material HuF_cas_02/Chest
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture null_01.dds
+                        }
+                }
+        }
+}
+material HuF_cas_02/Jaw
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588000 0.588000 0.588000
+                        diffuse 0.588000 0.588000 0.588000
+                        specular 0.000000 0.000000 0.000000 0
+                        emissive 0.400000 0.400000 0.400000
+                        texture_unit
+                        {
+                                texture null_01.dds
+                        }
+                }
+        }
+}

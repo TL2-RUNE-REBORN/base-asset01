@@ -1,0 +1,45 @@
+material §÷½è_#26
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow_1h_nexus_d_01_0.tga
+            }
+        }
+    }
+}
+
+material Material_1
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow_1h_nexus_d_01_0.tga
+            }
+        }
+    }
+}
+
+material §÷½è_#25
+{
+    technique
+    {
+        pass
+        {
+            diffuse 1.000000 1.000000 1.000000
+            texture_unit
+            {
+                texture bow_1h_nexus_d_01_0.tga
+            }
+        }
+    }
+}
+

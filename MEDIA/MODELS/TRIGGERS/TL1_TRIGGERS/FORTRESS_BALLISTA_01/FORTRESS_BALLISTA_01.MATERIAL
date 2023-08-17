@@ -1,0 +1,17 @@
+material dwarven_ballista01
+{
+	technique
+	{
+		pass
+		{
+			ambient .5 .5 .5
+			diffuse .5 .5 .5
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture dwarven_ballista.png
+			}
+		}
+	}
+}

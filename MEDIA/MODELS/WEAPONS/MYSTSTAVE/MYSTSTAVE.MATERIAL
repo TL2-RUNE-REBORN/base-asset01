@@ -1,0 +1,44 @@
+material Material_1.001
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 0.000000
+			diffuse 0.800000 0.800000 0.800000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.250000
+			emissive 0.000000 0.000000 0.000000 0.000000
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture MystStave_0.DDS
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Material_0.002
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 0.000000
+			diffuse 0.800000 0.800000 0.800000 0.000000
+			specular 0.000000 0.000000 0.000000 0.000000 0.250000
+			emissive 0.000000 0.000000 0.000000 0.000000
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture MystStave_0.DDS
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}

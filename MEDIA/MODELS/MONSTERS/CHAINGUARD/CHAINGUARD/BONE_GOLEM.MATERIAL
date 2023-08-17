@@ -1,0 +1,52 @@
+material bonegolem_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.2 0.2 0.2
+			scene_blend add
+			alpha_rejection greater 120
+			texture_unit
+			{
+				texture chainguard_alpha.dds
+			}	
+			texture_unit
+			{
+				tex_coord_set 1
+				tex_address_mode clamp
+				env_map cubic_normal
+				cubic_texture spectral.dds combinedUVW
+				colour_op add
+			}	
+		}
+	}
+}
+material bonegolem_mat2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive .3 .3 .3
+			scene_blend alpha_blend
+			alpha_rejection greater 200
+			texture_unit
+			{
+				texture chainguard_noalpha.dds
+			}
+		}
+	}
+}	
+
+
+	
+
+
+

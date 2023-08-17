@@ -1,0 +1,19 @@
+material werewolf_canine_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0.2 0.2 0.2
+			scene_blend add
+			depth_write off
+			texture_unit
+			{
+				texture wolf.png
+			}
+		}
+	}
+}

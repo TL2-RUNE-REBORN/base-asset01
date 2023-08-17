@@ -1,0 +1,169 @@
+material loli_tc/loli_tc_neck
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			texture_unit
+			{
+				texture chgirl_loli_tc_neck.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_upperbody
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_upperbody.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_weapon
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_Weapon.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_arm
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_arm.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_belt
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_belt.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_face
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_Face.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_hair
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_hair1.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_hair2
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_hair2.dds
+			}
+		}
+	}
+}
+material loli_tc/chgirl_loli_tc_hair3
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 0.1
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+			{
+				texture chgirl_loli_tc_hair3.dds
+			}
+		}
+	}
+}

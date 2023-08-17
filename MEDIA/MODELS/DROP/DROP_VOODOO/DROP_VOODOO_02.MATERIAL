@@ -1,0 +1,21 @@
+material Material__27
+{
+        technique
+        {
+                pass
+                {
+                	   ambient 0.588000 0.588000 0.588000
+                	   diffuse 0.588000 0.588000 0.588000
+                	   specular 0.000000 0.000000 0.000000 0
+                	   emissive 0.407843 0.407843 0.407843
+
+				   alpha_rejection greater 150
+				   cull_hardware none
+
+                        texture_unit
+                        {
+                                texture VOODOODOLL.dds
+                        }
+                }
+        }
+}

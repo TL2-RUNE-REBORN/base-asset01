@@ -1,0 +1,19 @@
+material phaseball_material
+{
+        technique
+        {
+                pass
+                {
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			alpha_rejection greater 64
+			texture_unit
+                        {
+                                texture mesh_phaseball.dds
+                        }
+                }
+        }
+}
